@@ -8,6 +8,7 @@
     background-color: #f76c6c;
 }
 
+
 .promo {
     width: 100%;
 }
@@ -15,4 +16,30 @@
 .textpromo,
 .contact {
     padding: 1em;
+}
+
+carousel-control-next {
+    position: absolute;
+    left: 0;
+}
+
+carousel-control-prev {
+    right: 0;
+    position: absolute;
+}
+
+nav>ul {
+    background-color: #f76c6c;
+    font-size: x-small;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
 }
