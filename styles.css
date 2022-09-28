@@ -33,3 +33,8 @@ nav>ul {
     font-weight: bold;
     color: white;
 }
+
+.card{
+    width: 80%;
+    margin: auto;
+}
