@@ -1,19 +1,35 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.nav-bg{
-    background-color: #f76c6c  ;
+
+.nav-bg {
+    background-color: #f76c6c;
 }
 
-carousel-control-next{
+carousel-control-next {
     position: absolute;
-    left: 0;   
+    left: 0;
 }
 
-carousel-control-prev{
+carousel-control-prev {
     right: 0;
     position: absolute;
+}
+
+nav>ul {
+    background-color: #f76c6c;
+    font-size: x-small;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
 }
