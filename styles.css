@@ -34,7 +34,16 @@ nav>ul {
     color: white;
 }
 
-.card{
+.card {
     width: 80%;
     margin: auto;
+}
+
+footer {
+    background-color: #f76c6c;
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-size: small;
+    padding-left: 10px;
 }
