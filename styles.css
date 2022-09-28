@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-color: #f76c6c  ;
+}
+.carousel-control-next-icon {
+    background-image: url("./next\ \(1\).png")
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./next\ \(1\).png")
+}
+.arrow{
+    color: #f76c6c;
+    width: 10px;
+    height: 10px;
+}
