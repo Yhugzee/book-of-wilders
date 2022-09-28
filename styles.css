@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-color: #f76c6c  ;
+}
+
+carousel-control-next{
+    position: absolute;
+    left: 0;   
+}
+
+carousel-control-prev{
+    right: 0;
+    position: absolute;
+}
