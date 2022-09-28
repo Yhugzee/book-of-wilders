@@ -38,3 +38,26 @@ nav>ul {
     width: 80%;
     margin: auto;
 }
+#about{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+ h2{
+    color:#f76c6c
+}
+article p{
+    padding: 20px;
+    margin: auto;
+    background-color: #e5e5e5;
+}
+
+
+
+.section-bg-img{
+    background-image: url("./images/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% ;
+    height: 200px;
+}
