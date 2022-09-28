@@ -1,29 +1,18 @@
-.navbar-nav-sm {
-    text-align: center;
-    background-color: #f76c6c;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-color: #f76c6c  ;
 }
 
-.title {
-    text-align: center;
+carousel-control-next{
+    position: absolute;
+    left: 0;   
 }
 
-.eleveslpics {
-    height: 100px;
-    width: 100px;
-}
-
-.menu {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.page-footer {
-    background-color: #f76c6c;
-}
-
-.footer-copyright {
-    color: white;
-    font-weight: bold;
+carousel-control-prev{
+    right: 0;
+    position: absolute;
 }
