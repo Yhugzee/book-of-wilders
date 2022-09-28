@@ -34,7 +34,14 @@ nav>ul {
     color: white;
 }
 
-.card{
+.card {
     width: 80%;
     margin: auto;
+}
+
+.contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
 }
