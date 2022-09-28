@@ -35,13 +35,59 @@ nav>ul {
 }
 
 .card {
+
+
+    font-family: 'Raleway', sans-serif;
+
     width: 80%;
     margin: auto;
 }
+
 
 .contact {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
 }
+
+#about {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+h2 {
+    color: #f76c6c
+}
+
+article p {
+    padding: 20px;
+    margin: auto;
+    background-color: #e5e5e5;
+}
+
+.section-bg-img {
+    background-image: url("./images/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.text-center {
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #f76c6c;
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-size: small;
+    padding-left: 10px;
+    position: fixed;
+    bottom: 47px;
+    margin: 0;
+    box-sizing: border-box;
 }
