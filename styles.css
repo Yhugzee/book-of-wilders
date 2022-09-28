@@ -34,7 +34,13 @@ nav>ul {
     color: white;
 }
 
-.card{
+.card {
+    font-family: 'Raleway', sans-serif;
     width: 80%;
     margin: auto;
+}
+
+.text-center {
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 10px;
 }
