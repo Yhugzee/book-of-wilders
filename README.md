@@ -1,4 +1,4 @@
 # book-of-wilders
 First project
 
-Members : Hugo, Charlotte, Rohan, José, Fred, Adnan.
+Members : Hugo, Charlotte, Rohan, José, Fred, Adnan
