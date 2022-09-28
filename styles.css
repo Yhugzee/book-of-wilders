@@ -8,16 +8,6 @@
     background-color: #f76c6c;
 }
 
-
-.promo {
-    width: 100%;
-}
-
-.textpromo,
-.contact {
-    padding: 1em;
-}
-
 carousel-control-next {
     position: absolute;
     left: 0;
