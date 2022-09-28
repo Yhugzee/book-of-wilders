@@ -34,7 +34,8 @@ nav>ul {
     color: white;
 }
 
-.card{
+.card {
+    font-family: 'Raleway', sans-serif;
     width: 80%;
     margin: auto;
 }
@@ -60,4 +61,21 @@ article p{
     background-repeat: no-repeat;
     width: 100% ;
     height: 200px;
+
+.text-center {
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #f76c6c;
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-size: small;
+    padding-left: 10px;
+    position: fixed;
+    bottom: 47px;
+    margin: 0;
+    box-sizing: border-box;
 }
