@@ -35,9 +35,19 @@ nav>ul {
 }
 
 .card {
+
+
     font-family: 'Raleway', sans-serif;
+
     width: 80%;
     margin: auto;
+}
+
+
+.contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
 }
 
 #about {
