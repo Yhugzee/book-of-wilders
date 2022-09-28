@@ -2,3 +2,28 @@
     text-align: center;
     background-color: #f76c6c;
 }
+
+.title {
+    text-align: center;
+}
+
+.eleveslpics {
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-footer {
+    background-color: #f76c6c;
+}
+
+.footer-copyright {
+    color: white;
+    font-weight: bold;
+}
