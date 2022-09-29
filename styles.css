@@ -44,7 +44,7 @@ nav>ul {
 }
 
 .contactez-nous {
-    padding-bottom: 3rem;
+    padding-top: 50px;
 }
 
 .contact {
@@ -55,7 +55,6 @@ nav>ul {
 
 #about {
     margin-top: 50px;
-    margin-bottom: 200px;
 }
 
 h2 {
@@ -79,18 +78,16 @@ article p {
 
 .text-center {
     font-family: 'Varela Round', sans-serif;
-    padding-bottom: 10px;
 }
 
-.footer {
-    background-color: #f76c6c;
+footer {
+    background-color: gray;
     color: white;
-    text-align: left;
-    width: 100%;
     font-size: small;
-    padding-left: 10px;
-    position: fixed;
-    bottom: 47px;
-    margin: 0;
-    box-sizing: border-box;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+footer p {
+    padding: 20px;
 }
