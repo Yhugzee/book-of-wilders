@@ -16,7 +16,7 @@
     "url": "https://github.com/Yhugzee/book-of-wilders/issues"
   },
   "homepage": "https://github.com/Yhugzee/book-of-wilders#readme",
-  "dependencies": {
+  "devDependencies": {
     "w3c-html-validator": "^1.1.3"
   }
 }
