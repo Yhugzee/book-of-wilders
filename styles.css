@@ -27,6 +27,7 @@ nav>ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    z-index: 1000;
 }
 
 .nav-link {
@@ -58,7 +59,8 @@ nav>ul {
 }
 
 h2 {
-    color: #f76c6c
+    color: #f76c6c;
+    text-shadow: 2px 1px 1px gray;
 }
 
 article p {
@@ -96,4 +98,10 @@ footer p {
 .card-img-top {
     width: 100%;
     clip-path: ellipse(50% 50%);
+}
+
+.teachers {
+    color: #f76c6c;
+    font family: 'Varela Round', sans-serif;
+    text-shadow: 2px 1px 1px gray;
 }
