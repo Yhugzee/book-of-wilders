@@ -88,12 +88,12 @@ footer {
     padding-bottom: 25px;
     text-align: center;
 }
+
 footer p {
     padding: 20px;
 }
 
-.card-img-top{
+.card-img-top {
     width: 80%;
-    height: 500px
-    
+    clip-path: ellipse(50% 50%);
 }
