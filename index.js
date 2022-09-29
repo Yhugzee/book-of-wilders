@@ -6,7 +6,7 @@ const wilders = [
     },
     {
         name: "charlotte",
-        image: "./profiles/charlotte.jpg",
+        image: "./profiles/charlotte.png",
         bio: 'I love to code'
     }
 ]
