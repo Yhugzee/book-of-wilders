@@ -1,0 +1,22 @@
+{
+  "name": "book-of-wilders",
+  "version": "1.0.0",
+  "description": "First project Wildcode school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yhugzee/book-of-wilders.git"
+  },
+  "author": "Hugo, Charlotte, Rohan, Jose, Adnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yhugzee/book-of-wilders/issues"
+  },
+  "homepage": "https://github.com/Yhugzee/book-of-wilders#readme",
+  "dependencies": {
+    "w3c-html-validator": "^1.1.3"
+  }
+}
