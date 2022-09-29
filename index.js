@@ -48,8 +48,8 @@ function createCard(title, imageUrl, description){
     details.append(p)
 
     const a = document.createElement('a')
-    a.classList.add ='btn'
-    a.classList.add = 'btn-primary'
+    a.classList.add('btn')
+    a.classList.add('btn-primary')
     a.textContent = "Go somewhere"
     a.href = '#'
     details.append(a)
