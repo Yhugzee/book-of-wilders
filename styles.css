@@ -91,3 +91,9 @@ footer {
 footer p {
     padding: 20px;
 }
+
+.card-img-top{
+    width: 80%;
+    height: 500px
+    
+}
