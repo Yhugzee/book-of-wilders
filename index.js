@@ -48,13 +48,12 @@ function createCard(title, imageUrl, description) {
     details.append(p)
 
     const a = document.createElement('a')
-    a.classList.add = 'btn'
-    a.classList.add = 'btn-primary'
+    a.classList.add('btn')
+    a.classList.add('btn-primary')
     a.textContent = "Go somewhere"
     a.href = '#'
     details.append(a)
 }
-
 
 for (let i = 0; i < wilders.length; i++) {
     createCard(wilders[i].name, wilders[i].image, wilders[i].bio)
