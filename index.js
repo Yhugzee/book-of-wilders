@@ -2,7 +2,7 @@ const wilders = [
     {
         name: "Hugo",
         image: "./profiles/hugo.png",
-        music: "Lofi & Rap",
+        music: "Lofi & Rap (Lil Peep ❤️)",
         hobbie: "L'informatique et les jeux vidéos",
         likewcs: "Le plaisir de coder"
     },
