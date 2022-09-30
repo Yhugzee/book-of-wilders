@@ -135,3 +135,19 @@ p {
 .card {
     text-align: center;
 }
+
+#external-link {
+    background-color: #f76c6c;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 4px 4px 8px 1px gray;
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
