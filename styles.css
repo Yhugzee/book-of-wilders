@@ -80,6 +80,7 @@ article p {
 
 .text-center {
     font-family: 'Varela Round', sans-serif;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -106,14 +107,16 @@ footer p {
     text-shadow: 2px 1px 1px gray;
 }
 
-hr{
-    width: 50%;
-    margin: auto;
+hr {
+    height: 2px !important;
+    width: 70%;
+    margin: 50px auto;
     background-color: #f76c6c;
     position: relative;
-    margin-top: 50px;
+    border-radius: 70%;
 }
-p{
+
+p {
     max-width: 80%;
     margin: auto;
 }
