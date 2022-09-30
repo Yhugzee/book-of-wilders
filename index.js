@@ -1,13 +1,27 @@
 const wilders = [
     {
-        name: "Hugo",
-        image: "./profiles/hugo.png",
-        music: "Lofi & Rap (Lil Peep ❤️)",
-        hobbie: "L'informatique et les jeux vidéos",
-        likewcs: "Le plaisir de coder"
+        name: "Adnan Bakaev",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
     },
     {
-        name: "Charlotte",
+        name: "Alexis Durin",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Benoît Galey",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Charlotte Kieffer",
         image: "./profiles/charlotte.png",
         music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
         hobbie: "La photo, les jeux vidéos, lire de la science-fiction",
@@ -15,17 +29,136 @@ const wilders = [
 
     },
     {
-        name: "Jessy",
+        name: "Edouard Tractere",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Farid Himeur",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Frédéric Michel",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Herimanana Rasolonirina",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Hugo Rodriguez",
+        image: "./profiles/hugo.png",
+        music: "Lofi & Rap (Lil Peep ❤️)",
+        hobbie: "L'informatique et les jeux vidéos",
+        likewcs: "Le plaisir de coder"
+    },
+    {
+        name: "Jessy Hazart",
         image: "./images/blank-profile.jpeg",
         music: "Peu importe tant que j'aime ce que j'écoute.",
         hobbie: "Programmation, jeux vidéo, football",
         likewcs: "J'aime coder"
     },
     {
-        name: "Olivier L",
+        name: "José Alves",
+        image: "./profiles/jose.png",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Louen Maginot",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Lucie Froissart",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Mounir Mekoui",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Olivier Lopez",
         image: "./images/blank-profile.jpeg",
         music: "Rock - Electro",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto"
+    },
+    {
+        name: "Olivier Nou",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Pierre Yves Gille Mignon",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Robin Kolasinski",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Rohan Molinillo",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Romain Bronquard",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Rémi Lagreze",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Simon Bullado",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
+    },
+    {
+        name: "Valentin Marlois",
+        image: "./images/blank-profile.jpeg",
+        music: "",
+        hobbie: "",
+        likewcs: "",
     }
 ]
 
