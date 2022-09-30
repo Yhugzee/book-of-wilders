@@ -80,6 +80,7 @@ article p {
 
 .text-center {
     font-family: 'Varela Round', sans-serif;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -106,6 +107,10 @@ footer p {
     text-shadow: 2px 1px 1px gray;
 }
 
+hr {
+    height: 2px !important;
+    width: 70%;
+    margin: 50px auto;
 .school {
     color: #f76c6c;
     font-family: 'Varela Round', sans-serif;
@@ -117,7 +122,7 @@ hr {
     margin: auto;
     background-color: #f76c6c;
     position: relative;
-    margin-top: 50px;
+    border-radius: 70%;
 }
 
 p {
