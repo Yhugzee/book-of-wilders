@@ -1,21 +1,37 @@
 const wilders = [
     {
-        name: "hugo",
+        name: "Hugo",
         image: "./profiles/hugo.png",
-        bio: "I love music"
+        music: "Lofi & Rap",
+        hobbie: "L'informatique et les jeux vidéos",
+        likewcs: "Le plaisir de coder"
     },
     {
-        name: "charlotte",
+        name: "Charlotte",
         image: "./profiles/charlotte.png",
-        bio: 'I love to code',
-        hobbie: 'i like to swim'
+        music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
+        hobbie: "La photo, les jeux vidéos, lire de la science-fiction",
+        likewcs: "L'envie de découvrir un nouveau métier avec de nouveaux défis !"
 
+    },
+    {
+        name: "Jessy",
+        image: "",
+        music: "Peu importe tant que j'aime ce que j'écoute.",
+        hobbie: "Programmation, jeux vidéo, football",
+        likewcs: "J'aime coder"
+    },
+    {
+        name: "Olivier L",
+        image: "",
+        music: "Rock - Electro",
+        hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto"
     }
 ]
 
 const carousel = document.querySelector(".carousel-inner")
 
-function createCard(title, imageUrl, description, hobbies) {
+function createCard(title, imageUrl, music, hobbies, likeswcs) {
     const carouselItem = document.createElement('div')
     carouselItem.classList.add('carousel-item')
     carousel.append(carouselItem)
@@ -46,12 +62,16 @@ function createCard(title, imageUrl, description, hobbies) {
     details.append(summary)
 
     const p = document.createElement('p')
-    p.textContent = description
+    p.textContent = music
     details.append(p)
-    
+
     const hobbie = document.createElement('p')
     hobbie.textContent = hobbies;
     details.append(hobbie)
+
+    const likewcs = document.createElement('p')
+    likewcs.textContent = likeswcs;
+    details.append(likewcs)
 
     const a = document.createElement('a')
     a.classList.add('btn')
@@ -63,5 +83,5 @@ function createCard(title, imageUrl, description, hobbies) {
 }
 
 for (let i = 0; i < wilders.length; i++) {
-    createCard(wilders[i].name, wilders[i].image, wilders[i].bio, wilders[i].hobbie)
+    createCard(wilders[i].name, wilders[i].image, wilders[i].music, wilders[i].hobbie, wilders[i].likewcs)
 }
