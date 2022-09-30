@@ -45,9 +45,9 @@ const wilders = [
     {
         name: "Frédéric Michel",
         image: "./images/blank-profile.jpeg",
-        music: "",
-        hobbie: "",
-        likewcs: "",
+        music: "Je n'ai pas de style préféré, je m'interresse à tout.",
+        hobbie: "Informatique - Arts marrtiaux (karaté) - échecs -photo - secourisme",
+        likewcs: "Le bus, non plus sérieusement, une reconversion professionnelle, une attirance certaine pour le code et un grand intérêt pour l'apprentissage permanent.",
     },
     {
         name: "Herimanana Rasolonirina",
@@ -121,9 +121,9 @@ const wilders = [
     {
         name: "Robin Kolasinski",
         image: "./images/blank-profile.jpeg",
-        music: "",
-        hobbie: "",
-        likewcs: "",
+        music: "Celtic métal",
+        hobbie: "Jeux vidéos, bière",
+        likewcs: "Je cherchais une formation en développement web",
     },
     {
         name: "Rohan Molinillo",
