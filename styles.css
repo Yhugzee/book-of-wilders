@@ -106,14 +106,19 @@ footer p {
     text-shadow: 2px 1px 1px gray;
 }
 
-hr{
+hr {
     width: 50%;
     margin: auto;
     background-color: #f76c6c;
     position: relative;
     margin-top: 50px;
 }
-p{
+
+p {
     max-width: 80%;
     margin: auto;
+}
+
+.card {
+    text-align: center;
 }
