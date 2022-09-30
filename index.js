@@ -16,14 +16,14 @@ const wilders = [
     },
     {
         name: "Jessy",
-        image: "",
+        image: "./images/blank-profile.jpeg",
         music: "Peu importe tant que j'aime ce que j'écoute.",
         hobbie: "Programmation, jeux vidéo, football",
         likewcs: "J'aime coder"
     },
     {
         name: "Olivier L",
-        image: "",
+        image: "./images/blank-profile.jpeg",
         music: "Rock - Electro",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto"
     }
