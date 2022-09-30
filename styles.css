@@ -36,7 +36,7 @@ nav>ul {
 }
 
 .card {
-
+    border: none !important;
 
     font-family: 'Raleway', sans-serif;
 
@@ -102,6 +102,18 @@ footer p {
 
 .teachers {
     color: #f76c6c;
-    font family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     text-shadow: 2px 1px 1px gray;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    background-color: #f76c6c;
+    position: relative;
+    margin-top: 50px;
+}
+p{
+    max-width: 80%;
+    margin: auto;
 }

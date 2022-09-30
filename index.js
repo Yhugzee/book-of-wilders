@@ -7,13 +7,15 @@ const wilders = [
     {
         name: "charlotte",
         image: "./profiles/charlotte.png",
-        bio: 'I love to code'
+        bio: 'I love to code',
+        hobbie: 'i like to swim'
+
     }
 ]
 
 const carousel = document.querySelector(".carousel-inner")
 
-function createCard(title, imageUrl, description) {
+function createCard(title, imageUrl, description, hobbies) {
     const carouselItem = document.createElement('div')
     carouselItem.classList.add('carousel-item')
     carousel.append(carouselItem)
@@ -46,6 +48,10 @@ function createCard(title, imageUrl, description) {
     const p = document.createElement('p')
     p.textContent = description
     details.append(p)
+    
+    const hobbie = document.createElement('p')
+    hobbie.textContent = hobbies;
+    details.append(hobbie)
 
     const a = document.createElement('a')
     a.classList.add('btn')
@@ -53,8 +59,9 @@ function createCard(title, imageUrl, description) {
     a.textContent = "Go somewhere"
     a.href = '#'
     details.append(a)
+
 }
 
 for (let i = 0; i < wilders.length; i++) {
-    createCard(wilders[i].name, wilders[i].image, wilders[i].bio)
+    createCard(wilders[i].name, wilders[i].image, wilders[i].bio, wilders[i].hobbie)
 }
