@@ -136,7 +136,7 @@ p {
     text-align: center;
 }
 
-#external-link {
+.external-link {
     background-color: #f76c6c;
     border: none;
     border-radius: 5rem;
