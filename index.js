@@ -185,6 +185,11 @@ const wilders = [
     }
 ]
 
+const shuffleFunction = (array) =>{
+    return array.sort((a,b) => 0.5 - Math.random())
+}
+const shuffledWilders = shuffleFunction(wilders)
+
 const carousel = document.querySelector(".carousel-inner")
 
 function createCard(title, imageUrl, music, hobbies, likeswcs) {
@@ -243,5 +248,5 @@ function createCard(title, imageUrl, music, hobbies, likeswcs) {
 }
 
 for (let i = 0; i < wilders.length; i++) {
-    createCard(wilders[i].name, wilders[i].image, wilders[i].qmusic, wilders[i].music, wilders[i].hobbie, wilders[i].likewcs)
+    createCard(shuffledWilders[i].name, shuffledWilders[i].image, shuffledWilders[i].qmusic, shuffledWilders[i].music, shuffledWilders[i].hobbie, shuffledWilders[i].likewcs)
 }
