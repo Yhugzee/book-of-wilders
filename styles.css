@@ -150,3 +150,13 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 900px) {
+    
+    .card{
+        width: 20%;
+    }
+    #contact > p{
+        text-align: center;
+    }
+}
