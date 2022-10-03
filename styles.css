@@ -150,7 +150,15 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
-
+.section-little{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-little{
+    height: 7%;
+    width: 7%;
+}
 @media screen and (min-width: 900px) {
     
     .card{
