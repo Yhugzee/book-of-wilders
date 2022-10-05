@@ -18,6 +18,11 @@ carousel-control-prev {
     position: absolute;
 }
 
+.wilders-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 nav>ul {
     background-color: #f76c6c;
     font-size: x-small;
