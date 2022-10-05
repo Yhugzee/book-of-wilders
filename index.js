@@ -39,7 +39,7 @@ const wilders = [
         music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
         qhobbie: "Tes hobbies :",
         hobbie: "La photo, les jeux vidéos, la science-fiction",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "L'envie de découvrir un nouveau métier avec de nouveaux défis !",
         linkedin: 'https://www.linkedin.com/in/charlotte-kieffer-023424221/'
 
@@ -106,7 +106,7 @@ const wilders = [
         music: "Peu importe tant que j'aime ce que j'écoute.",
         qhobbie: "Tes hobbies :",
         hobbie: "Programmation, jeux vidéo, football",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime coder",
         linkedin: 'https://www.linkedin.com/in/jessy-hazart3250/'
     },
@@ -161,7 +161,7 @@ const wilders = [
         music: "Rock - Electro",
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique",
         linkedin: 'https://www.linkedin.com/in/olivier-lopez-432868251/'
     },
@@ -333,7 +333,7 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     const a = document.createElement('a')
     a.classList.add('btn')
     a.classList.add('btn-primary')
-    a.textContent = `Mon profile LinkedIn`
+    a.textContent = `Mon profil LinkedIn`
     a.href = link
     a.target = '_blank'
     details.append(a)
