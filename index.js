@@ -6,7 +6,7 @@ const wilders = [
         music: "J'aime presque tous les genres musicaux",
         qhobbie: "Tes hobbies :",
         hobbie: "Livres, films et football",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime le monde de la technologie, la programmation, apprendre quelque chose de nouveau, et aussi un grand désir d'avoir un travail que j'aime.",
     },
     {
@@ -16,7 +16,7 @@ const wilders = [
         music: "Rap et funk",
         qhobbie: "Tes hobbies :",
         hobbie: "Sports de combat",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je souhaitais me reconvertir et une formation rapide me convient",
     },
     {
@@ -26,7 +26,7 @@ const wilders = [
         music: "Variété/Reggae/Rock/Rap ",
         qhobbie: "Tes hobbies :",
         hobbie: "Randonnée, ski",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime le code",
     },
     {
@@ -36,7 +36,7 @@ const wilders = [
         music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
         qhobbie: "Tes hobbies :",
         hobbie: "La photo, les jeux vidéos, la science-fiction",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "L'envie de découvrir un nouveau métier avec de nouveaux défis !"
 
     },
@@ -47,7 +47,7 @@ const wilders = [
         music: "Rap, classique et funk",
         qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je suis là pour approfondir mes connaissances et j'aime la méthode de travail de la Wild",
     },
     {
@@ -57,7 +57,7 @@ const wilders = [
         music: "",
         qhobbie: "Tes hobbies :",
         hobbie: "",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "",
     },
     {
@@ -67,7 +67,7 @@ const wilders = [
         music: "Je n'ai pas de style préféré, je m'interresse à tout.",
         qhobbie: "Tes hobbies :",
         hobbie: "Informatique, Arts martiaux (karaté), échecs, photo, secourisme",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le bus, non plus sérieusement, une reconversion professionnelle, une attirance certaine pour le code et un grand intérêt pour l'apprentissage permanent.",
     },
     {
@@ -77,7 +77,7 @@ const wilders = [
         music: "La musique Malgache",
         qhobbie: "Tes hobbies :",
         hobbie: "Pas de hobbies particuliers",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je suis passionné par le code depuis longtemps",
     },
     {
@@ -87,7 +87,7 @@ const wilders = [
         music: "Lofi & Rap (Lil Peep ❤️)",
         qhobbie: "Tes hobbies :",
         hobbie: "L'informatique et les jeux vidéos",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le plaisir de coder",
     },
     {
@@ -97,7 +97,7 @@ const wilders = [
         music: "Peu importe tant que j'aime ce que j'écoute.",
         qhobbie: "Tes hobbies :",
         hobbie: "Programmation, jeux vidéo, football",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime coder"
     },
     {
@@ -107,7 +107,7 @@ const wilders = [
         music: "Funk et classique",
         qhobbie: "Tes hobbies :",
         hobbie: "Le piano, les arts martiaux et la psychologie",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je voulais me reconvertir dans un métier d'avenir",
     },
     {
@@ -117,7 +117,7 @@ const wilders = [
         music: "Tout type de musique",
         qhobbie: "Tes hobbies :",
         hobbie: "Le sport et l'informatique",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je souhaite créer des site web et en faire mon métier",
     },
     {
@@ -127,7 +127,7 @@ const wilders = [
         music: "J'aime tous les styles",
         qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos, la lecture, les animés",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je veux apprendre à coder grâce à une formation courte",
     },
     {
@@ -137,7 +137,7 @@ const wilders = [
         music: "Le rap français et le hip-hop",
         qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos et sortir avec mes amis",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Pour construire un avenir autour de mon appétance pour le numérique",
     },
     {
@@ -147,7 +147,7 @@ const wilders = [
         music: "Rock - Electro",
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique"
     },
     {
@@ -157,7 +157,7 @@ const wilders = [
         music: "Le métal",
         qhobbie: "Tes hobbies :",
         hobbie: "La musique et la photo",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Pour apprendre le code et le transmettre à ma fille",
     },
     {
@@ -167,7 +167,7 @@ const wilders = [
         music: "Le rap et le hardcore",
         qhobbie: "Tes hobbies :",
         hobbie: "Le sport et les jeux vidéos",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le système d'apprentissage court et intensif me plait",
     },
     {
@@ -177,7 +177,7 @@ const wilders = [
         music: "Celtic métal",
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéos, bière",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je cherchais une formation en développement web",
     },
     {
@@ -187,7 +187,7 @@ const wilders = [
         music: "Métal, dubstep et pop",
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéos, musique et création photoshop",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "En reconversion professionnelle, j'ai souhaité me diriger vers le métier de développeur web.",
     },
     {
@@ -197,7 +197,7 @@ const wilders = [
         music: "Le rap",
         qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos et les animés",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Cela fait 3 ans que je souhaite devenir developpeur web",
     },
     {
@@ -207,7 +207,7 @@ const wilders = [
         music: "Rap et rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "L'amour du code",
     },
     {
@@ -217,7 +217,7 @@ const wilders = [
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je veux me reconvertir et devenir développeur web",
     },
     {
@@ -227,7 +227,7 @@ const wilders = [
         music: "Rap et electro",
         qhobbie: "Tes hobbies :",
         hobbie: "La moto, la pêche",
-        qwcs: "Ce qui t'a ammené à la Wild ?",
+        qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je cherchais une formation accessible à tous et de courte durée",
     },
     {
