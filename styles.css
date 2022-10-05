@@ -275,6 +275,7 @@ p {
         margin: 0 10px;
     }
 
+
     .card-body {
         padding: 0px !important;
         text-align: center;
@@ -301,3 +302,4 @@ p {
 .section-bg-img {
     height: 600px;
 }
+

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Yhugzee/book-of-wilders#readme",
   "devDependencies": {
+    "cypress": "^10.9.0",
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
