@@ -293,3 +293,7 @@ p {
         left: 10px;
     }
 }
+
+.external-link {
+    font-size: 1.25rem;
+}
