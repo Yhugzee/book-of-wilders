@@ -42,7 +42,7 @@ const wilders2 = [
     },
     {
         name: "Farid Himeur",
-        image: "./profiles/blank-profile.jpeg",
+        image: "./images/blank-profile.jpeg",
         qmusic: "Vos gouts musicaux :",
         music: "",
         hobbie: "",
