@@ -18,6 +18,11 @@ carousel-control-prev {
     position: absolute;
 }
 
+.wilders-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 nav>ul {
     background-color: #f76c6c;
     font-size: x-small;
@@ -70,12 +75,12 @@ article p {
 }
 
 .section-bg-img {
-    background-image: url("./images/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg");
+    background-image: url("./images/groupe_mobile.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 
 .text-center {
@@ -97,9 +102,10 @@ footer p {
 }
 
 .card-img-top {
-    width: 100%;
+    width: 100px;
     clip-path: ellipse(50% 50%);
 }
+
 
 .teachers {
     color: #f76c6c;
@@ -162,6 +168,83 @@ p {
     width: 7%;
 }
 
+.bg-light {
+    justify-content: center;
+    color: #eee;
+    background-color: #f76c6c;
+}
+
+#wild-color,
+#wild-section {
+    background-color: #f76c6c !important;
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #eee !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./images/hamburger.png) !important;
+}
+
+.left-arrow {
+    background-image: url(./images/left-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left: 50px;
+    top: 40%;
+    z-index: 900;
+}
+
+.right-arrow {
+    background-image: url(./images/right-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    right: 50px;
+    top: 40%;
+    z-index: 900;
+}
+
+.carousel-control-next {
+    z-index: 999 !important;
+}
+
+.carousel-control-prev {
+    z-index: 999 !important;
+}
+
+.pulse {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 6px auto 0;
+    box-shadow: 0 0 0 #f76c6c;
+    animation: breathe 4s linear infinite;
+}
+
+@keyframes breathe {
+    0% {
+        box-shadow: 0 0 0 0px #f76c6c;
+    }
+
+    50% {
+        box-shadow: 0 0 20px 12px #f76c6c;
+    }
+}
+
+.carousel-inner {
+    padding-top: 20px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 900px) {
 
     .card {
@@ -171,4 +254,47 @@ p {
     #contact>p {
         text-align: center;
     }
+
+    .card-little>.card-body {
+        padding: 0;
+
+    }
+
+    .card-little {
+        margin: 0 10px;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-little {
+        width: 20%;
+        margin: 0 10px;
+    }
+
+
+    .card-body {
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .right-arrow,
+    .left-arrow {
+        top: 300px
+    }
+
+    .right-arrow {
+        right: 10px;
+    }
+
+    .left-arrow {
+        left: 10px;
+    }
+}
+
+.external-link {
+    font-size: 1.25rem;
 }

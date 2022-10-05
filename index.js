@@ -1,7 +1,7 @@
 const wilders = [
     {
         name: "Adnan Bakaev",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/adnan.png",
         qmusic: "Tes goûts musicaux :",
         music: "J'aime presque tous les genres musicaux",
         qhobbie: "Tes hobbies :",
@@ -11,7 +11,7 @@ const wilders = [
     },
     {
         name: "Alexis Durin",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/alexis.png",
         qmusic: "Tes goûts musicaux :",
         music: "Rap et funk",
         qhobbie: "Tes hobbies :",
@@ -21,7 +21,7 @@ const wilders = [
     },
     {
         name: "Benoît Galey",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/benoit.png",
         qmusic: "Tes goûts musicaux :",
         music: "Variété/Reggae/Rock/Rap ",
         qhobbie: "Tes hobbies :",
@@ -31,7 +31,7 @@ const wilders = [
     },
     {
         name: "Charlotte Kieffer",
-        image: "./profiles/charlotte.png",
+        image: "./images/charlotte.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
         qhobbie: "Tes hobbies :",
@@ -42,7 +42,7 @@ const wilders = [
     },
     {
         name: "Edouard Tractere",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/edouard.png",
         qmusic: "Tes goûts musicaux :",
         music: "Rap, classique et funk",
         qhobbie: "Tes hobbies :",
@@ -62,8 +62,8 @@ const wilders = [
     },
     {
         name: "Frédéric Michel",
-        image: "./images/blank-profile.jpeg",
         qmusic: "Tes goûts musicaux :",
+        image: "./images/fred.png",
         music: "Je n'ai pas de style préféré, je m'interresse à tout.",
         qhobbie: "Tes hobbies :",
         hobbie: "Informatique, Arts martiaux (karaté), échecs, photo, secourisme",
@@ -72,8 +72,8 @@ const wilders = [
     },
     {
         name: "Herimanana Rasolonirina",
-        image: "./images/blank-profile.jpeg",
         qmusic: "Tes goûts musicaux :",
+        image: "./images/heri.png",
         music: "La musique Malgache",
         qhobbie: "Tes hobbies :",
         hobbie: "Pas de hobbies particuliers",
@@ -92,7 +92,7 @@ const wilders = [
     },
     {
         name: "Jessy Hazart",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/jessy.png",
         qmusic: "Tes goûts musicaux :",
         music: "Peu importe tant que j'aime ce que j'écoute.",
         qhobbie: "Tes hobbies :",
@@ -102,17 +102,17 @@ const wilders = [
     },
     {
         name: "José Alves",
-        image: "./profiles/jose.png",
+        image: "./images/jose.png",
         qmusic: "Tes goûts musicaux :",
         music: "Funk et classique",
         qhobbie: "Tes hobbies :",
         hobbie: "Le piano, les arts martiaux et la psychologie",
         qwcs: "Ce qui t'a ammené à la Wild ?",
-        likewcs: "Je voulaois me reconvertir dans un métier d'avenir",
+        likewcs: "Je voulais me reconvertir dans un métier d'avenir",
     },
     {
         name: "Louen Maginot",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/louen.png",
         qmusic: "Tes goûts musicaux :",
         music: "Tout type de musique",
         qhobbie: "Tes hobbies :",
@@ -122,7 +122,7 @@ const wilders = [
     },
     {
         name: "Lucie Froissart",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/lucie.png",
         qmusic: "Tes goûts musicaux :",
         music: "J'aime tous les styles",
         qhobbie: "Tes hobbies :",
@@ -132,7 +132,7 @@ const wilders = [
     },
     {
         name: "Mounir Mekoui",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/mounir.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le rap français et le hip-hop",
         hobbie: "Les jeux vidéos et sortir avec mes amis",
@@ -141,7 +141,7 @@ const wilders = [
     },
     {
         name: "Olivier Lopez",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/olivier_l.png",
         qmusic: "Tes goûts musicaux :",
         music: "Rock - Electro",
         qhobbie: "Tes hobbies :",
@@ -151,7 +151,7 @@ const wilders = [
     },
     {
         name: "Olivier Nou",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/olivier_n.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le métal",
         qhobbie: "Tes hobbies :",
@@ -161,7 +161,7 @@ const wilders = [
     },
     {
         name: "Pierre Yves Gille Mignon",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/pierre_yves.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le rap et le hardcore",
         qhobbie: "Tes hobbies :",
@@ -171,7 +171,7 @@ const wilders = [
     },
     {
         name: "Robin Kolasinski",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/robin.png",
         qmusic: "Tes goûts musicaux :",
         music: "Celtic métal",
         qhobbie: "Tes hobbies :",
@@ -181,7 +181,7 @@ const wilders = [
     },
     {
         name: "Rohan Molinillo",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/rohan.png",
         qmusic: "Tes goûts musicaux :",
         music: "Métal, dubstep et pop",
         qhobbie: "Tes hobbies :",
@@ -191,7 +191,7 @@ const wilders = [
     },
     {
         name: "Romain Bronquard",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/romain_b.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le rap",
         qhobbie: "Tes hobbies :",
@@ -201,7 +201,7 @@ const wilders = [
     },
     {
         name: "Rémi Lagreze",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/remi.png",
         qmusic: "Tes goûts musicaux :",
         music: "Rap et rock",
         qhobbie: "Tes hobbies :",
@@ -211,8 +211,8 @@ const wilders = [
     },
     {
         name: "Simon Bullado",
-        image: "./images/blank-profile.jpeg",
-        qmusic: "Tes goûts musicaux :",
+        image: "./images/simon.png",
+        qmusic: "Tes goûts musicaux:",
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
@@ -221,13 +221,23 @@ const wilders = [
     },
     {
         name: "Valentin Marlois",
-        image: "./images/blank-profile.jpeg",
+        image: "./images/valentin.png",
         qmusic: "Tes goûts musicaux :",
         music: "Rap et electro",
         qhobbie: "Tes hobbies :",
         hobbie: "La moto, la pêche",
         qwcs: "Ce qui t'a ammené à la Wild ?",
         likewcs: "Je cherchais une formation accessible à tous et de courte durée",
+    },
+    {
+        name: "Lily",
+        image: "./images/lili.png",
+        qmusic: "",
+        music: "Mascotte de la Session",
+        qhobbie: "",
+        hobbie: "Carresses et câlins à volonté.",
+        qwcs: "",
+        likewcs: "",
     }
 ]
 
@@ -247,10 +257,14 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     card.classList.add('card')
     carouselItem.append(card)
 
+    const pulse = document.createElement('div')
+    pulse.classList.add('pulse')
+    card.append(pulse)
+
     const cardImg = document.createElement('img')
     cardImg.classList.add('card-img-top')
     cardImg.src = imageUrl,
-        card.append(cardImg)
+        pulse.append(cardImg)
 
     const cardBody = document.createElement('div')
     cardBody.classList.add('card-body')
