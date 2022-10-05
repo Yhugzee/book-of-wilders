@@ -201,10 +201,14 @@ function createCard(title, imageUrl, music, hobbies, likeswcs) {
     card.classList.add('card')
     carouselItem.append(card)
 
+    const pulse = document.createElement('div')
+    pulse.classList.add('pulse')
+    card.append(pulse)
+
     const cardImg = document.createElement('img')
     cardImg.classList.add('card-img-top')
     cardImg.src = imageUrl,
-        card.append(cardImg)
+    pulse.append(cardImg)
 
     const cardBody = document.createElement('div')
     cardBody.classList.add('card-body')

@@ -25,11 +25,17 @@
     <main>
         <section id="wilders" class="profile-section mt-4">
             <h2 class="text-center">Les Wilders</h2>
+            <div class="arrows">
+                <span class="left-arrow"></span>
+                <span class="right-arrow"></span>
+            </div>
             <div id="carouselExampleIndicators" class="carousel slide container-fluid" data-interval="15000" data-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
                         <div class="card">
-                            <img src="./images/blank-profile.jpeg" class="card-img-top img-responsive" alt="...">
+                            <div class="pulse">
+                                <img src="./images/blank-profile.jpeg" class="card-img-top img-responsive" alt="...">
+                            </div>
                             <div class="card-body">
                                 <h5>Card title</h5>
                                 <details>
@@ -70,16 +76,17 @@
 
         </nav>
         <hr>
-        <section>
-            <div class="pos-f-t">
+        <section class='wilders-container'>
+            <h2 class="text-center">Cliquez pour voir tous les wilders!</h2>
+            <div class="pos-f-t navbar-nav flex-column-reverse" >
                 <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="section-little bg-dark p-4">
+                  <div class="text-center section-little bg-light p-4" id="wild-color">
                     
                   </div>
                 </div>
-                <div class="navbar navbar-light bg-light">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <div class="navbar navbar-light bg-light section-all justify-content-center" id="wild-section">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                   </button>
                 </div>
               </div>
@@ -88,7 +95,7 @@
             <h2>Contactez nous</h2>
             <p class="contact">Si vous souhaitez nous proposer une offre d'emploi, vous pouvez cliquer sur le lien
                 ci-dessous.</p>
-            <input class="external-link" type="button" onclick="window.location.href = 'https://www.wilders.co/';"
+            <input class="external-link" type="button" 
                 value="wilders.co">
         </section>
         <!--section adnan-->
@@ -111,8 +118,10 @@
                 <br>
                 <h3 class="teachers text-center">Nos formateurs</h3>
                 <div class="card">
-                    <img src="./images/blank-profile.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="pulse">
+                        <img src="./images/blank-profile.jpeg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body ">
                         <h5>Romain GUILLEMOT</h5>
                         <details>
                             <summary>About Me</summary>
