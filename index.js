@@ -234,7 +234,7 @@ const wilders = [
     {
         name: "Simon Bullado",
         image: "./profiles/simon.png",
-        qmusic: "Tes goûts musicaux:",
+        qmusic: "Tes goûts musicaux :",
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
@@ -343,4 +343,21 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
 
 for (let i = 0; i < wilders.length; i++) {
     createCard(shuffledWilders[i].name, shuffledWilders[i].image, shuffledWilders[i].qmusic, shuffledWilders[i].music, shuffledWilders[i].qhobbie, shuffledWilders[i].hobbie, shuffledWilders[i].qwcs, shuffledWilders[i].likewcs, shuffledWilders[i].linkedin)
+}
+
+let opened = false
+
+function borderChange() {
+
+    if (opened === false) {
+        document.getElementById("wild-section").style.borderBottomLeftRadius = "0rem";
+        document.getElementById("wild-section").style.borderBottomRightRadius = "0rem";
+        opened = true
+    } else {
+        setTimeout(() => {
+            document.getElementById("wild-section").style.borderBottomLeftRadius = "2rem";
+            document.getElementById("wild-section").style.borderBottomRightRadius = "2rem";
+        }, 335)
+        opened = false;
+    }
 }
