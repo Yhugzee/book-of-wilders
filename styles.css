@@ -59,8 +59,10 @@ nav>ul {
     text-align: left;
 }
 
-#about {
-    margin-top: 50px;
+#about p {
+    margin-top: 20px;
+    margin-inline: 4rem;
+    text-align: left;
 }
 
 h2 {
@@ -179,10 +181,11 @@ p {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
 #wild-section {
     background-color: #f76c6c !important;
     border-radius: 2rem;
-    
+
 }
 
 .navbar-light .navbar-toggler {
@@ -256,25 +259,19 @@ p {
         width: 20%;
     }
 
-    #contact>p {
+    #contact p {
         text-align: center;
     }
 
-    .card-little>.card-body {
+    .card-little.card-body {
         padding: 0;
-
-    }
-
-    .card-little {
         margin: 0 10px;
     }
 
     p {
         font-size: 1.25rem;
     }
-}
 
-@media screen and (max-width: 900px) {
     .card-little {
         width: 20%;
         margin: 0 10px;
@@ -298,13 +295,16 @@ p {
     .left-arrow {
         left: 10px;
     }
-}
 
-.external-link {
-    font-size: 1.25rem;
-}
+    .external-link {
+        font-size: 1.25rem;
+    }
 
-.section-bg-img {
-    height: 600px;
-}
+    .section-bg-img {
+        height: 600px;
+    }
 
+    #about p {
+        margin-inline: 25%;
+    }
+}
