@@ -254,3 +254,19 @@ function createCard(title, imageUrl, music, hobbies, likeswcs) {
 for (let i = 0; i < wilders.length; i++) {
     createCard(shuffledWilders[i].name, shuffledWilders[i].image, shuffledWilders[i].qmusic, shuffledWilders[i].music, shuffledWilders[i].hobbie, shuffledWilders[i].likewcs)
 }
+let opened = false
+
+function borderChange() {
+    
+    if(opened === false){
+    document.getElementById("wild-section").style.borderBottomLeftRadius = "0rem";
+      document.getElementById("wild-section").style.borderBottomRightRadius = "0rem";
+   opened = true
+    }else {   
+        setTimeout (() => {
+            document.getElementById("wild-section").style.borderBottomLeftRadius = "2rem";
+            document.getElementById("wild-section").style.borderBottomRightRadius = "2rem";
+        },335)
+      opened = false;
+  }
+}
