@@ -282,25 +282,25 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     summary.textContent = `About Me`
     details.append(summary)
 
-    const p = document.createElement('p')
-    p.textContent = music
-    details.append(p)
+    const musique = document.createElement('p')
+    musique.textContent = music
+    details.append(musique)
 
     const qmusic = document.createElement('p')
     qmusic.textContent = qumusic;
-    details.append(p)
+    details.append(qmusic)
 
     const qhobbie = document.createElement('p')
     qhobbie.textContent = quhobbie;
-    details.append(p)
+    details.append(qhobbie)
 
     const hobbie = document.createElement('p')
     hobbie.textContent = hobbies;
-    details.append(p)
+    details.append(hobbie)
 
     const qwcs = document.createElement('p')
     qwcs.textContent = quwcs;
-    details.append(p)
+    details.append(qwcs)
 
     const likewcs = document.createElement('p')
     likewcs.textContent = likeswcs;
