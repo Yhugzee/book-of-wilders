@@ -174,10 +174,15 @@ p {
     background-color: #f76c6c;
 }
 
-#wild-color,
+#wild-color {
+    background-color: #f76c6c !important;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
 #wild-section {
     background-color: #f76c6c !important;
-
+    border-radius: 2rem;
+    
 }
 
 .navbar-light .navbar-toggler {
