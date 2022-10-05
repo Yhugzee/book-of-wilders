@@ -213,7 +213,7 @@ const wilders = [
     {
         name: "Simon Bullado",
         image: "./profiles/simon.png",
-        qmusic: "Tes goûts musicaux:",
+        qmusic: "Tes goûts musicaux :",
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
