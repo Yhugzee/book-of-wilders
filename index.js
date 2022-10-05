@@ -8,6 +8,7 @@ const wilders = [
         hobbie: "Livres, films et football",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime le monde de la technologie, la programmation, apprendre quelque chose de nouveau, et aussi un grand désir d'avoir un travail que j'aime.",
+        linkedin: 'https://www.linkedin.com/in/adnan-bakaev-a70463249/'
     },
     {
         name: "Alexis Durin",
@@ -18,6 +19,7 @@ const wilders = [
         hobbie: "Sports de combat",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je souhaitais me reconvertir et une formation rapide me convient",
+        linkedin: "https://www.linkedin.com/in/alexis-durin-768435249/"
     },
     {
         name: "Benoît Galey",
@@ -28,6 +30,7 @@ const wilders = [
         hobbie: "Randonnée, ski",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "J'aime le code",
+        linkedin: 'https://www.linkedin.com/in/benoit-galey-066115145/'
     },
     {
         name: "Charlotte Kieffer",
@@ -36,8 +39,9 @@ const wilders = [
         music: "Le rock et le métal (les Foo Fighters, Radiohead, Ministry, The Black Keys)",
         qhobbie: "Tes hobbies :",
         hobbie: "La photo, les jeux vidéos, la science-fiction",
-        qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "L'envie de découvrir un nouveau métier avec de nouveaux défis !"
+        qwcs: "Ce qui t'a ammené à la Wild ?",
+        likewcs: "L'envie de découvrir un nouveau métier avec de nouveaux défis !",
+        linkedin: 'https://www.linkedin.com/in/charlotte-kieffer-023424221/'
 
     },
     {
@@ -49,6 +53,7 @@ const wilders = [
         hobbie: "Les jeux vidéos",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je suis là pour approfondir mes connaissances et j'aime la méthode de travail de la Wild",
+        linkedin: 'https://www.linkedin.com/in/edouard-tractere-4559441b8/'
     },
     {
         name: "Farid Himeur",
@@ -59,6 +64,7 @@ const wilders = [
         hobbie: "",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "",
+        linkedin: 'https://www.linkedin.com/in/farid-himeur/'
     },
     {
         name: "Frédéric Michel",
@@ -69,6 +75,7 @@ const wilders = [
         hobbie: "Informatique, Arts martiaux (karaté), échecs, photo, secourisme",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le bus, non plus sérieusement, une reconversion professionnelle, une attirance certaine pour le code et un grand intérêt pour l'apprentissage permanent.",
+        linkedin: 'https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-michel-6a9982229/'
     },
     {
         name: "Herimanana Rasolonirina",
@@ -79,6 +86,7 @@ const wilders = [
         hobbie: "Pas de hobbies particuliers",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je suis passionné par le code depuis longtemps",
+        linkedin: "https://www.linkedin.com/in/herimanana/"
     },
     {
         name: "Hugo Rodriguez",
@@ -89,6 +97,7 @@ const wilders = [
         hobbie: "L'informatique et les jeux vidéos",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le plaisir de coder",
+        linkedin: 'https://www.linkedin.com/in/hugo-rodriguez51/'
     },
     {
         name: "Jessy Hazart",
@@ -97,8 +106,9 @@ const wilders = [
         music: "Peu importe tant que j'aime ce que j'écoute.",
         qhobbie: "Tes hobbies :",
         hobbie: "Programmation, jeux vidéo, football",
-        qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "J'aime coder"
+        qwcs: "Ce qui t'a ammené à la Wild ?",
+        likewcs: "J'aime coder",
+        linkedin: 'https://www.linkedin.com/in/jessy-hazart3250/'
     },
     {
         name: "José Alves",
@@ -109,6 +119,7 @@ const wilders = [
         hobbie: "Le piano, les arts martiaux et la psychologie",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je voulais me reconvertir dans un métier d'avenir",
+        linkedin: 'https://www.linkedin.com/in/jos%C3%A9-alves-5195b922b/'
     },
     {
         name: "Louen Maginot",
@@ -119,6 +130,7 @@ const wilders = [
         hobbie: "Le sport et l'informatique",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je souhaite créer des site web et en faire mon métier",
+        linkedin: 'https://www.linkedin.com/in/louen-maginot-a81222206/'
     },
     {
         name: "Lucie Froissart",
@@ -129,6 +141,7 @@ const wilders = [
         hobbie: "Les jeux vidéos, la lecture, les animés",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je veux apprendre à coder grâce à une formation courte",
+        linkedin: 'https://www.linkedin.com/in/louen-maginot-a81222206/'
     },
     {
         name: "Mounir Mekoui",
@@ -139,6 +152,7 @@ const wilders = [
         hobbie: "Les jeux vidéos et sortir avec mes amis",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Pour construire un avenir autour de mon appétance pour le numérique",
+        linkedin: 'https://www.linkedin.com/in/mounir-mekoui/'
     },
     {
         name: "Olivier Lopez",
@@ -147,8 +161,9 @@ const wilders = [
         music: "Rock - Electro",
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto",
-        qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique"
+        qwcs: "Ce qui t'a ammené à la Wild ?",
+        likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique",
+        linkedin: 'https://www.linkedin.com/in/olivier-lopez-432868251/'
     },
     {
         name: "Olivier Nou",
@@ -159,6 +174,7 @@ const wilders = [
         hobbie: "La musique et la photo",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Pour apprendre le code et le transmettre à ma fille",
+        linkedin: ''
     },
     {
         name: "Pierre Yves Gille Mignon",
@@ -169,6 +185,7 @@ const wilders = [
         hobbie: "Le sport et les jeux vidéos",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Le système d'apprentissage court et intensif me plait",
+        linkedin: 'https://www.linkedin.com/in/pierre-yves-gille-mignon-6723b7251/'
     },
     {
         name: "Robin Kolasinski",
@@ -179,6 +196,7 @@ const wilders = [
         hobbie: "Jeux vidéos, bière",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je cherchais une formation en développement web",
+        linkedin: 'https://www.linkedin.com/in/robin-kolasinski-930195166/'
     },
     {
         name: "Rohan Molinillo",
@@ -189,6 +207,7 @@ const wilders = [
         hobbie: "Jeux vidéos, musique et création photoshop",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "En reconversion professionnelle, j'ai souhaité me diriger vers le métier de développeur web.",
+        linkedin: 'https://www.linkedin.com/in/rohan-molinillo/'
     },
     {
         name: "Romain Bronquard",
@@ -199,6 +218,7 @@ const wilders = [
         hobbie: "Les jeux vidéos et les animés",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Cela fait 3 ans que je souhaite devenir developpeur web",
+        linkedin: 'https://www.linkedin.com/in/romain-bronquard/'
     },
     {
         name: "Rémi Lagreze",
@@ -209,6 +229,7 @@ const wilders = [
         hobbie: "Les jeux vidéos",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "L'amour du code",
+        linkedin: 'https://www.linkedin.com/in/r%C3%A9mi-lagreze-b90673251/'
     },
     {
         name: "Simon Bullado",
@@ -219,6 +240,7 @@ const wilders = [
         hobbie: "Le VTT et les PC",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je veux me reconvertir et devenir développeur web",
+        linkedin: 'https://www.linkedin.com/in/simon-bullado-008725150/'
     },
     {
         name: "Valentin Marlois",
@@ -229,6 +251,7 @@ const wilders = [
         hobbie: "La moto, la pêche",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je cherchais une formation accessible à tous et de courte durée",
+        linkedin: 'https://www.linkedin.com/in/valentin-marlois-1b1464183/'
     },
     {
         name: "Lily",
@@ -249,7 +272,7 @@ const shuffledWilders = shuffleFunction(wilders)
 
 const carousel = document.querySelector(".carousel-inner")
 
-function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, likeswcs) {
+function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, likeswcs, link) {
     const carouselItem = document.createElement('div')
     carouselItem.classList.add('carousel-item')
     carousel.append(carouselItem)
@@ -310,14 +333,16 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     const a = document.createElement('a')
     a.classList.add('btn')
     a.classList.add('btn-primary')
-    a.textContent = "Go somewhere"
-    a.href = '#'
+    a.textContent = `Mon profile LinkedIn`
+    a.href = link
+    a.target = '_blank'
     details.append(a)
+
 
 }
 
 for (let i = 0; i < wilders.length; i++) {
-    createCard(shuffledWilders[i].name, shuffledWilders[i].image, shuffledWilders[i].qmusic, shuffledWilders[i].music, shuffledWilders[i].qhobbie, shuffledWilders[i].hobbie, shuffledWilders[i].qwcs, shuffledWilders[i].likewcs)
+    createCard(shuffledWilders[i].name, shuffledWilders[i].image, shuffledWilders[i].qmusic, shuffledWilders[i].music, shuffledWilders[i].qhobbie, shuffledWilders[i].hobbie, shuffledWilders[i].qwcs, shuffledWilders[i].likewcs, shuffledWilders[i].linkedin)
 }
 
 let opened = false
