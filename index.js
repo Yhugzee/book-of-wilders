@@ -108,7 +108,7 @@ const wilders = [
         qhobbie: "Tes hobbies :",
         hobbie: "Le piano, les arts martiaux et la psychologie",
         qwcs: "Ce qui t'a ammené à la Wild ?",
-        likewcs: "Je voulaois me reconvertir dans un métier d'avenir",
+        likewcs: "Je voulais me reconvertir dans un métier d'avenir",
     },
     {
         name: "Louen Maginot",
@@ -135,6 +135,7 @@ const wilders = [
         image: "./images/mounir.png",
         qmusic: "Tes goûts musicaux :",
         music: "Le rap français et le hip-hop",
+        qhobbie: "Tes hobbies :",
         hobbie: "Les jeux vidéos et sortir avec mes amis",
         qwcs: "Ce qui t'a ammené à la Wild ?",
         likewcs: "Pour construire un avenir autour de mon appétance pour le numérique",
@@ -212,7 +213,7 @@ const wilders = [
     {
         name: "Simon Bullado",
         image: "./images/simon.png",
-        qmusic: "Tes goûts musicaux :",
+        qmusic: "Tes goûts musicaux:",
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
@@ -283,7 +284,7 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     details.append(summary)
 
     const qmusic = document.createElement('p')
-    qmusic.textContent = qumusic;
+    qmusic.innerHTML = `<strong>${qumusic}</strong>`;
     details.append(qmusic)
 
     const musique = document.createElement('p')
@@ -291,7 +292,7 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     details.append(musique)
 
     const qhobbie = document.createElement('p')
-    qhobbie.textContent = quhobbie;
+    qhobbie.innerHTML = `<strong>${quhobbie}</strong>`;
     details.append(qhobbie)
 
     const hobbie = document.createElement('p')
@@ -299,7 +300,7 @@ function createCard(title, imageUrl, qumusic, music, quhobbie, hobbies, quwcs, l
     details.append(hobbie)
 
     const qwcs = document.createElement('p')
-    qwcs.textContent = quwcs;
+    qwcs.innerHTML = `<strong>${quwcs}</strong>`;
     details.append(qwcs)
 
     const likewcs = document.createElement('p')
