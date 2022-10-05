@@ -150,21 +150,25 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
-.section-little{
+
+.section-little {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.card-little{
+
+.card-little {
     height: 7%;
     width: 7%;
 }
+
 @media screen and (min-width: 900px) {
-    
-    .card{
+
+    .card {
         width: 20%;
     }
-    #contact > p{
+
+    #contact>p {
         text-align: center;
     }
 }
