@@ -108,7 +108,7 @@ const wilders = [
         qhobbie: "Tes hobbies :",
         hobbie: "Le piano, les arts martiaux et la psychologie",
         qwcs: "Ce qui t'a ammené à la Wild ?",
-        likewcs: "Je voulaois me reconvertir dans un métier d'avenir",
+        likewcs: "Je voulais me reconvertir dans un métier d'avenir",
     },
     {
         name: "Louen Maginot",
@@ -212,7 +212,7 @@ const wilders = [
     {
         name: "Simon Bullado",
         image: "./images/simon.png",
-        qmusic: "Tes goûts musicaux :",
+        qmusic: "Tes goûts musicaux:",
         music: "Le métal et le rock",
         qhobbie: "Tes hobbies :",
         hobbie: "Le VTT et les PC",
