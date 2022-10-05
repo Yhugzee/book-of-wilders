@@ -148,7 +148,7 @@ const wilders = [
         qhobbie: "Tes hobbies :",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto",
         qwcs: "Ce qui t'a ammené à la Wild ?",
-        likeswcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique"
+        likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique"
     },
     {
         name: "Olivier Nou",
