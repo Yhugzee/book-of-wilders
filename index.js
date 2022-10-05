@@ -228,6 +228,16 @@ const wilders = [
         hobbie: "La moto, la pêche",
         qwcs: "Ce qui t'a ammené à la Wild ?",
         likewcs: "Je cherchais une formation accessible à tous et de courte durée",
+    },
+    {
+        name: "Lily",
+        image: "./images/lili.png",
+        qmusic: "",
+        music: "Mascotte de la Session",
+        qhobbie: "",
+        hobbie: "Carresses et câlins à volonté.",
+        qwcs: "",
+        likewcs: "",
     }
 ]
 
