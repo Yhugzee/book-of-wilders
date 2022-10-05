@@ -70,12 +70,12 @@ article p {
 }
 
 .section-bg-img {
-    background-image: url("./images/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg");
+    background-image: url("./images/groupe_mobile.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 
 .text-center {
@@ -151,31 +151,39 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
-.section-little{
+
+.section-little {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.card-little{
+
+.card-little {
     height: 7%;
     width: 7%;
 }
+
 .bg-light {
     justify-content: center;
     color: #eee;
-    background-color: #f76c6c ;
+    background-color: #f76c6c;
 }
-#wild-color, #wild-section{
+
+#wild-color,
+#wild-section {
     background-color: #f76c6c !important;
-    
+
 }
-.navbar-light .navbar-toggler{
+
+.navbar-light .navbar-toggler {
     border-color: #eee !important;
 }
-.navbar-light .navbar-toggler-icon{
+
+.navbar-light .navbar-toggler-icon {
     background-image: url(./images/hamburger.png) !important;
 }
-.left-arrow{
+
+.left-arrow {
     background-image: url(./images/left-arrow.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -185,7 +193,8 @@ p {
     top: 40%;
     z-index: 900;
 }
-.right-arrow{
+
+.right-arrow {
     background-image: url(./images/right-arrow.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -195,10 +204,12 @@ p {
     top: 40%;
     z-index: 900;
 }
-.carousel-control-next{
+
+.carousel-control-next {
     z-index: 999 !important;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     z-index: 999 !important;
 }
 
@@ -210,6 +221,7 @@ p {
     box-shadow: 0 0 0 #f76c6c;
     animation: breathe 4s linear infinite;
 }
+
 @keyframes breathe {
     0% {
         box-shadow: 0 0 0 0px #f76c6c;
@@ -219,46 +231,56 @@ p {
         box-shadow: 0 0 20px 12px #f76c6c;
     }
 }
-.carousel-inner{
+
+.carousel-inner {
     padding-top: 20px;
 }
-.card-body{
+
+.card-body {
     margin-top: 20px;
 }
 
 @media screen and (min-width: 900px) {
-    
-    .card{
+
+    .card {
         width: 20%;
     }
-    #contact > p{
+
+    #contact>p {
         text-align: center;
     }
-    .card-little > .card-body{
+
+    .card-little>.card-body {
         padding: 0;
 
     }
-    .card-little{
+
+    .card-little {
         margin: 0 10px;
     }
 }
 
-@media screen and (max-width: 900px){
-    .card-little{
+@media screen and (max-width: 900px) {
+    .card-little {
         width: 20%;
         margin: 0 10px;
     }
-    .card-body{
+
+    .card-body {
         padding: 0px !important;
         text-align: center;
     }
-    .right-arrow, .left-arrow{
+
+    .right-arrow,
+    .left-arrow {
         top: 300px
     }
-    .right-arrow{
+
+    .right-arrow {
         right: 10px;
     }
-    .left-arrow{
+
+    .left-arrow {
         left: 10px;
     }
 }
