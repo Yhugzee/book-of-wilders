@@ -227,10 +227,9 @@ p {
 }
 
 .pulse {
-    width: 200px;
-    height: 200px;
+    width: 300px;
     border-radius: 50%;
-    margin: 6px auto 0;
+    margin: 10px auto;
     box-shadow: 0 0 0 #f76c6c;
     animation: breathe 4s linear infinite;
 }
@@ -306,4 +305,29 @@ p {
     #about p {
         margin-inline: 25%;
     }
+    .section-little > .card-little{
+        width: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .card-little {
+        width: 20%;
+        margin: 0 10px;
+    }
+    .left-arrow {
+        left: 10px;
+    }
+
+
+    .external-link {
+    font-size: 1.25rem;
+    }
+    .external-link {
+        font-size: 1.25rem;
+    }
+
+    .card-body{
+        padding: 0 !important;
+    }
+    
 }
