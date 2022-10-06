@@ -317,7 +317,12 @@ p {
     .left-arrow {
         left: 10px;
     }
-
+    .right-arrow{
+        right: 0px
+    }
+    .left-arrow, .right-arrow{
+        top: 350px
+    }
 
     .external-link {
     font-size: 1.25rem;
