@@ -25,9 +25,8 @@ function createCard(index, title, imageUrl) {
 
     card.addEventListener("click", () => {
         $(".carousel").carousel(index);
-        window.scroll(0,120).animate({
-            scrollTop: $("#elementtoScrollToID").offset().top
-        }, 2000);
+        $("html, body").animate(
+            { scrollTop: "120" }, 1000);
     })
 }
 
