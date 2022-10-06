@@ -251,30 +251,41 @@ p {
 .card-body {
     margin-top: 20px;
 }
-summary{
+
+summary {
     list-style: none;
     display: inline;
     background-color: #f76c6c;
     width: 120px;
     padding: 7px;
     border-radius: 20px;
-    margin:10px auto;
+    margin: 10px auto;
     color: white;
     text-decoration: none;
     box-shadow: 4px 4px 8px 1px gray;
 }
-details > p{
+
+details>p {
     margin-top: 35px;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
     animation: sweep .5s ease-in-out;
-  }
-  
-  @keyframes sweep {
-    0%    {opacity: 0; transform: translateX(-10px)}
-    100%  {opacity: 1; transform: translateX(0)}
-  }
-.card-little{
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.card-little {
     background-color: #f76c6c;
     border: none;
     color: white;
@@ -282,9 +293,11 @@ details[open] summary ~ * {
     margin: 0 10px;
     padding: 0px !important;
 }
-.card-little:focus{
+
+.card-little:focus {
     outline: none;
 }
+
 @media screen and (min-width: 900px) {
 
     .card {
@@ -332,40 +345,48 @@ details[open] summary ~ * {
     }
 
     .section-bg-img {
-        height: 600px;
+        background-image: url("./images/groupe_desktop.png");
+        height: 500px;
     }
 
     #about p {
         margin-inline: 25%;
     }
-    .section-little > .card-little{
+
+    .section-little>.card-little {
         width: 10%;
     }
 }
+
 @media screen and (max-width: 900px) {
     .card-little {
         width: 20%;
         margin: 0 10px;
     }
+
     .left-arrow {
         left: 10px;
     }
-    .right-arrow{
+
+    .right-arrow {
         right: 0px
     }
-    .left-arrow, .right-arrow{
+
+    .left-arrow,
+    .right-arrow {
         top: 350px
     }
 
     .external-link {
-    font-size: 1.25rem;
+        font-size: 1.25rem;
     }
+
     .external-link {
         font-size: 1.25rem;
     }
 
-    .card-body{
+    .card-body {
         padding: 0 !important;
     }
-    
+
 }
