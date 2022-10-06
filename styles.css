@@ -251,7 +251,27 @@ p {
 .card-body {
     margin-top: 20px;
 }
+summary{
+    list-style: none;
+    display: inline;
+    background-color: #f76c6c;
+    width: 120px;
+    padding: 7px;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
 
+details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; transform: translateX(-10px)}
+    100%  {opacity: 1; transform: translateX(0)}
+  }
+  
 @media screen and (min-width: 900px) {
 
     .card {
