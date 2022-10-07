@@ -70,10 +70,6 @@ h2 {
     text-shadow: 2px 1px 1px gray;
 }
 
-h7 {
-    font-weight: bold;
-}
-
 article p {
     padding: 20px;
     margin: auto;
@@ -301,6 +297,12 @@ details[open] summary~* {
 
 .card-little:focus {
     outline: none;
+}
+
+.btn {
+    border-radius: 5rem !important;
+    box-shadow: 4px 4px 8px 1px grey;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 900px) {
