@@ -1,7 +1,7 @@
 const wilders = [
     {
         name: "Adnan Bakaev",
-        image: "./profiles/adnan.png",
+        image: "./profiles/adnan2.jpg",
         qmusic: "Tes goûts musicaux ?",
         music: "J'aime presque tous les genres musicaux",
         qhobbie: "Tes hobbies ?",

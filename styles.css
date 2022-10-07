@@ -277,6 +277,7 @@ details[open] summary~* {
     animation: sweep .5s ease-in-out;
 }
 
+
 @keyframes sweep {
     0% {
         opacity: 0;
