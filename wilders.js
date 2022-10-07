@@ -18,7 +18,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Sports de combat",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Je souhaitais me reconvertir et une formation rapide me convient",
+        likewcs: "Je souhaitais me reconvertir et une formation rapide me convient.",
         linkedin: "https://www.linkedin.com/in/alexis-durin-768435249/"
     },
     {
@@ -63,14 +63,14 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "League of legends, voyages et sport",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Mon intêret pour les cartes graphiques et les CPU. Mais surtout, j'aimerais développer un serveur qui nécessite du Javascript.",
+        likewcs: "Mon intérêt pour les cartes graphiques et les CPU. Mais surtout, j'aimerais développer un serveur qui nécessite du Javascript.",
         linkedin: 'https://www.linkedin.com/in/farid-himeur/'
     },
     {
         name: "Frédéric Michel",
         qmusic: "Tes goûts musicaux ?",
         image: "./profiles/fred.png",
-        music: "Je n'ai pas de style préféré, je m'interresse à tout.",
+        music: "Je n'ai pas de style préféré, je m'intéresse à tout.",
         qhobbie: "Tes hobbies ?",
         hobbie: "Informatique, Arts martiaux (karaté), échecs, photo, secourisme",
         qwcs: "Ce qui t'a amené à la Wild ?",
@@ -129,7 +129,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Le sport et l'informatique",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Je souhaite créer des site web et en faire mon métier",
+        likewcs: "Je souhaite créer des sites web et en faire mon métier",
         linkedin: 'https://www.linkedin.com/in/louen-maginot-a81222206/'
     },
     {
@@ -151,7 +151,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Les jeux vidéos et sortir avec mes amis",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Pour construire un avenir autour de mon appétance pour le numérique",
+        likewcs: "Pour construire un avenir autour de mon appétence pour le numérique",
         linkedin: 'https://www.linkedin.com/in/mounir-mekoui/'
     },
     {
@@ -162,7 +162,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Jeux vidéo - Série TV / Anime - Voyage - Moto",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "une reconversion professionnelle pour travailler dans le domaine de l'informatique",
+        likewcs: "Une reconversion professionnelle pour travailler dans le domaine de l'informatique",
         linkedin: 'https://www.linkedin.com/in/olivier-lopez-432868251/'
     },
     {
@@ -184,7 +184,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Le sport et les jeux vidéos",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Le système d'apprentissage court et intensif me plait",
+        likewcs: "Le système d'apprentissage court et intensif me plaît",
         linkedin: 'https://www.linkedin.com/in/pierre-yves-gille-mignon-6723b7251/'
     },
     {
@@ -217,7 +217,7 @@ const wilders = [
         qhobbie: "Tes hobbies ?",
         hobbie: "Les jeux vidéos et les animés",
         qwcs: "Ce qui t'a amené à la Wild ?",
-        likewcs: "Cela fait 3 ans que je souhaite devenir developpeur web",
+        likewcs: "Cela fait 3 ans que je souhaite devenir développeur web",
         linkedin: 'https://www.linkedin.com/in/romain-bronquard/'
     },
     {
