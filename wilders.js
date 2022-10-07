@@ -141,7 +141,7 @@ const wilders = [
         hobbie: "Les jeux vidéos, la lecture, les animés",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Je veux apprendre à coder grâce à une formation courte",
-        linkedin: 'https://www.linkedin.com/in/louen-maginot-a81222206/'
+        linkedin: 'https://www.linkedin.com/in/lucie-froissart-171b60246'
     },
     {
         name: "Mounir Mekoui",
@@ -174,7 +174,7 @@ const wilders = [
         hobbie: "La musique et la photo",
         qwcs: "Ce qui t'a amené à la Wild ?",
         likewcs: "Pour apprendre le code et le transmettre à ma fille",
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/olivier-nou-8742aa84/'
     },
     {
         name: "Pierre Yves Gille Mignon",
